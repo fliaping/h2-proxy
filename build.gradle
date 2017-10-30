@@ -1,4 +1,4 @@
-group 'com.fliaping'
+group 'com.fliaping.proxy.h2'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -23,6 +23,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile 'io.netty:netty-all:4.1.16.Final'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
